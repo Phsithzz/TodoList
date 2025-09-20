@@ -53,7 +53,7 @@ const Todo = ({ task, onEdit, onDelete }) => {
             </div>
           </div>
         ) : (
-          <div className="flex gap-2 cursor-pointer justify-between bg-white border border-gray-300 p-2 rounded-lg shadow-sm">
+          <div className="flex gap-2 cursor-pointer justify-between items-center bg-white border border-gray-300 p-2 rounded-lg shadow-sm">
             <p
               onClick={handleToggle}
               className={
@@ -64,10 +64,10 @@ const Todo = ({ task, onEdit, onDelete }) => {
             >
               {task.task}
             </p>
-            <div className="flex gap-4 flex-shrink-0">
+            <div className="flex gap-4 flex-shrink-0 ">
               <button
                 type="button"
-                className="cursor-pointer bg-blue-400 p-2 rounded-md transition ease-in duration-200 hover:bg-blue-600"
+                className="cursor-pointer bg-blue-400 h-10 p-2 rounded-md transition ease-in duration-200 hover:bg-blue-600"
                 onClick={handleEdit}
               >
                 <span>
@@ -76,7 +76,7 @@ const Todo = ({ task, onEdit, onDelete }) => {
               </button>
               <button
                 type="button"
-                className="cursor-pointer bg-red-400 p-2 rounded-md transition ease-in duration-200 hover:bg-red-600"
+                className="cursor-pointer bg-red-400 h-10 p-2 rounded-md transition ease-in duration-200 hover:bg-red-600"
                 onClick={() => onDelete(task.id)}
               >
                 <span>

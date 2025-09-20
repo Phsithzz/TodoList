@@ -1,12 +1,34 @@
-# React + Vite
+# 📝 Todo List App
+A simple task management web application built with React and Tailwind CSS.  
+แอปพลิเคชันจัดการรายการงานประจำวันที่ช่วยเพิ่ม แก้ไข หรือลบงานต่าง ๆ สร้างขึ้นด้วย React และตกแต่งด้วย Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features / ฟีเจอร์
+- 📝 Add new tasks (เพิ่มรายการงานใหม่)  
+- ✏️ Edit existing tasks (แก้ไขรายการงาน)  
+- 🗑️ Delete tasks (ลบรายการงาน)  
+- ✔️ Mark tasks as completed with line-through (ทำเครื่องหมายงานที่เสร็จแล้ว)  
+- 🎨 Use React Icons for edit and delete buttons (ใช้ไอคอนจาก React Icons สำหรับปุ่มแก้ไขและลบ)  
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+🔗 View the app online: [todo-list-alpha-wine.vercel.app]  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack / เทคโนโลยีที่ใช้
+- ⚛️ React.js (Vite)  
+- 💨 Tailwind CSS  
+- 🟨 JavaScript (ES6+)  
+- 🎨 React Icons  
 
-## Expanding the ESLint configuration
+## 🧑‍💻 How to Run / วิธีใช้งานบนเครื่อง
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone this repository  
+   ```bash
+    git clone https://github.com/your-username/Todo-List-App.git
+    cd Todo-List-App
+
+2. Install dependencies
+    ```bash
+    npm install
+
+3. Start the development server
+    ```bash
+    npm run dev
