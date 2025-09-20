@@ -10,7 +10,7 @@ A simple task management web application built with React and Tailwind CSS.
 - 🎨 Use React Icons for edit and delete buttons (ใช้ไอคอนจาก React Icons สำหรับปุ่มแก้ไขและลบ)  
 
 ## 🌐 Live Demo
-🔗 View the app online: [todo-list-alpha-wine.vercel.app]  
+🔗 View the app online: [https://todo-list-alpha-wine.vercel.app/]  
 
 ## 🛠️ Tech Stack / เทคโนโลยีที่ใช้
 - ⚛️ React.js (Vite)  
