@@ -22,8 +22,8 @@ A simple task management web application built with React and Tailwind CSS.
 
 1. Clone this repository  
    ```bash
-    git clone https://github.com/your-username/Todo-List-App.git
-    cd Todo-List-App
+    git clone https://github.com/Phsithzz/TodoList.git
+    cd TodoList
 
 2. Install dependencies
     ```bash
